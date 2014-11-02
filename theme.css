@@ -1,0 +1,39 @@
+canvas {
+    border: 1px solid black;
+    cursor:crosshair;
+}
+
+body {
+    overflow:hidden;
+}
+
+.mouse-position, #brushColor, #brushType, #navbar-brand {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.colorPicker {
+    min-width:50px;
+}
+
+#colorText-addon {
+    min-width:80px;
+}
+
+#tools {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background: url('img/geometry.png') 0 -21px;
+    border-bottom: 1px solid grey;
+}
+
+.icon-bar {
+    background-color: #4d4d4d;
+}
+
